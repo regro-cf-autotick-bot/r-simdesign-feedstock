@@ -1,4 +1,4 @@
-{% set version = "2.24" %}
+{% set version = "2.25" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/SimDesign_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/SimDesign/SimDesign_{{ version }}.tar.gz
-  sha256: fdda204264e557e1fc78a296e9d72c177b49592095b5b5195ed9d5492cd292e4
+  sha256: 5d03e5e4e14f7f2576d79882ffbb487adfcf823f9e1f690dc7942b192246086f
 
 build:
   number: 0
