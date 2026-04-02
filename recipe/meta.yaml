@@ -36,9 +36,11 @@ requirements:
     - r-e1071
     - r-future
     - r-future.apply
+    - r-mirai
     - r-parallelly
     - r-pbapply >=1.3_0
     - r-progressr
+    - r-qs2
     - r-sessioninfo
     - r-testthat
   run:
@@ -51,9 +53,11 @@ requirements:
     - r-e1071
     - r-future
     - r-future.apply
+    - r-mirai
     - r-parallelly
     - r-pbapply >=1.3_0
     - r-progressr
+    - r-qs2
     - r-sessioninfo
     - r-testthat
 
