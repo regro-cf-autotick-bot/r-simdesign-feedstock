@@ -3,7 +3,7 @@
 
 package:
   name: r-simdesign
-  version: {{ version|replace("-", "_") }}
+  version: "{{ version|replace("-", "_") }}"
 
 source:
   url:
@@ -36,7 +36,6 @@ requirements:
     - r-e1071
     - r-future
     - r-future.apply
-    - r-mirai
     - r-parallelly
     - r-pbapply >=1.3_0
     - r-progressr
@@ -53,7 +52,6 @@ requirements:
     - r-e1071
     - r-future
     - r-future.apply
-    - r-mirai
     - r-parallelly
     - r-pbapply >=1.3_0
     - r-progressr
